@@ -1,6 +1,6 @@
 # Diagramas originales de arquitectura
 
-Figuras extraídas de los informes académicos de los Laboratorios 2, 3 y 4. Todos muestran **diseños conceptuales documentados**; no representan infraestructura desplegada en AWS.
+Figuras de arquitectura extraídas de los informes técnicos de los Laboratorios 2, 3 y 4. Ilustran la evolución del diseño: segmentación de red, seguridad perimetral y acceso remoto.
 
 ## Laboratorio 2 — VPC y ruteo
 
