@@ -1,15 +1,15 @@
-# Documentación académica original
+# Informes académicos — Arquitectura de Nube y Redes Empresariales
 
-Los informes finales corresponden al **Módulo 1 — Arquitectura de Nube y Redes Empresariales** del Diplomado Cloud Infrastructure & DevSecOps (UAGRM), octubre de 2026.
+Estos son los **tres informes finales originales** del Módulo 1 del Diplomado en Cloud Infrastructure & DevSecOps (UAGRM), octubre de 2026.
 
-| Documento | Extensión | Estado |
-| --- | --- | --- |
-| `lab-02-vpc-routing.pdf` | 37 páginas | Archivo preparado para cargar |
-| `lab-03-network-security.pdf` | 32 páginas | Archivo preparado para cargar |
-| `lab-04-hybrid-connectivity.pdf` | 28 páginas | Archivo preparado para cargar |
+| Laboratorio | Documento completo | Resumen técnico | Extensión |
+| --- | --- | --- | ---: |
+| **2 — VPC, subredes y ruteo** | [Abrir PDF](lab-02-vpc-routing.pdf) | [Ver resumen](lab-02-resumen.md) | 37 páginas |
+| **3 — Seguridad perimetral** | [Abrir PDF](lab-03-network-security.pdf) | [Ver resumen](lab-03-resumen.md) | 32 páginas |
+| **4 — Conectividad híbrida** | [Abrir PDF](lab-04-hybrid-connectivity.pdf) | [Ver resumen](lab-04-resumen.md) | 28 páginas |
 
-Se pueden consultar mientras tanto los resúmenes técnicos: [Lab 2](lab-02-resumen.md), [Lab 3](lab-03-resumen.md) y [Lab 4](lab-04-resumen.md).
+**Total:** 97 páginas de documentación académica, desarrolladas como etapas de una misma propuesta de arquitectura AWS para comercio electrónico.
 
-**Importante:** Ruta B = investigación, documentación y arquitectura propuesta. No equivale a ejecutar las configuraciones de AWS.
+> **Nota de alcance:** se realizó exclusivamente la **Ruta B (investigación equivalente)**. No se aprovisionaron recursos AWS ni se ejecutaron pruebas reales. Las configuraciones y validaciones se explican como procedimientos documentados y resultados esperados. Las imágenes procedentes de documentación oficial se incorporaron como referencias identificadas.
 
-Los PDF originales incluyen portadas académicas, procedimientos de referencia y capturas de documentación oficial de AWS identificadas como tales.
+[← Volver a la presentación del proyecto](../README.md) · [Ver diagramas](../diagrams/README.md)
