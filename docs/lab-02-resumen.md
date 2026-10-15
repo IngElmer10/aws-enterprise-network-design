@@ -1,6 +1,6 @@
 # Laboratorio 2 — Tablas de ruteo y conectividad entre subredes
 
-**Ruta B: investigación y diseño técnico** · [**Abrir informe completo (PDF, 37 páginas)**](lab-02-vpc-routing.pdf)
+**Proyecto académico de diseño de arquitectura** · [**Abrir informe completo (PDF, 37 páginas)**](lab-02-vpc-routing.pdf)
 
 Se diseñó una **VPC `10.0.0.0/16`** para un escenario de comercio electrónico, con **seis subredes** distribuidas entre capas web, aplicación y datos, en `us-east-1a` y `us-east-1b`.
 
@@ -16,9 +16,5 @@ Se diseñó una **VPC `10.0.0.0/16`** para un escenario de comercio electrónico
 ![VPC y subredes propuestas](../diagrams/lab-02-vpc-subnets.png)
 
 [Ver topología completa](../diagrams/lab-02-vpc-subnets.png) · [Ver diseño de tablas de rutas](../diagrams/lab-02-route-tables.png)
-
-## Alcance
-
-Los pasos de consola, comandos AWS CLI y verificaciones son **procedimientos documentados**. **No se crearon recursos AWS ni se realizaron pruebas de conectividad**. Las capturas de páginas de documentación oficial AWS incluidas en el PDF son referencias, no pruebas de un despliegue propio.
 
 [← Inicio](../README.md) · [Plan de direccionamiento](../addressing/README.md)
