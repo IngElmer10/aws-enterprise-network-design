@@ -1,25 +1,24 @@
-# Laboratorio 4 — Conectividad híbrida: acceso remoto y enlaces dedicados
+# Laboratorio 4 — Conectividad híbrida: VPN de acceso remoto y enlaces dedicados
 
-**Modalidad:** Ruta B, investigación equivalente · **Informe original:** 28 páginas.
+**Ruta B: investigación y diseño técnico** · [**Abrir informe completo (PDF, 28 páginas)**](lab-04-hybrid-connectivity.pdf)
 
-Se investiga cómo dar acceso remoto seguro a personal técnico sin publicar directamente las aplicaciones privadas que se diseñaron en los dos laboratorios anteriores.
+Estudio sobre acceso remoto seguro a los servicios privados de la arquitectura de comercio electrónico desarrollada en los laboratorios anteriores.
 
-## Propuesta técnica
+## Componentes y decisiones
 
-- **AWS Client VPN** administrado, con pool de clientes `10.8.0.0/22`, distinto de las seis subredes de la VPC.
-- Autenticación mutua, asociaciones de red, autorizaciones, rutas y políticas para acceso a servicios privados.
-- Comparación conceptual con **WireGuard**, **Site-to-Site VPN/IPSec** y **AWS Direct Connect**.
-- Diseño híbrido de referencia para LAN `192.168.50.0/24`: Direct Connect primario y VPN Site-to-Site como respaldo, condicionado a rutas, políticas BGP y monitoreo.
+- Propuesta de **AWS Client VPN** administrado, con rango de clientes `10.8.0.0/22`, sin solapamiento con la VPC `10.0.0.0/16`.
+- Diseño documental de autenticación, asociaciones, autorización y rutas hacia redes privadas.
+- Análisis de diferencias entre **WireGuard**, **VPN Site-to-Site/IPSec** y **AWS Direct Connect**.
+- Diseño conceptual de una sede con LAN `192.168.50.0/24`, **Direct Connect primario** y **Site-to-Site VPN de respaldo**, contemplando preferencia BGP y validación de conmutación.
 
-## Figuras originales
+## Diagramas
 
-- **Página 9, Figura 1:** incorporación conceptual de Client VPN.
-- **Página 10, Figura 2:** flujo lógico de acceso remoto autorizado.
+![Arquitectura conceptual de Client VPN](../diagrams/lab-04-client-vpn.png)
 
-## Limitaciones
+[Ver extensión con Client VPN](../diagrams/lab-04-client-vpn.png) · [Ver flujo de acceso remoto](../diagrams/lab-04-remote-access-flow.png)
 
-No se crearon endpoints Client VPN, certificados, túneles VPN ni enlaces Direct Connect; tampoco se realizaron pruebas sobre instancias del proyecto. Las verificaciones son **esperadas o propuestas**.
+## Alcance
 
-[Volver al proyecto](../README.md)
+**No se crearon endpoints Client VPN, túneles, certificados ni enlaces Direct Connect**, ni se hicieron pruebas sobre instancias AWS del proyecto. Las verificaciones descritas son escenarios propuestos o resultados esperados.
 
-El archivo PDF original se encuentra en el paquete de entrega: `docs/lab-04-hybrid-connectivity.pdf`.
+[← Inicio](../README.md) · [Laboratorio anterior](lab-03-resumen.md)
