@@ -20,5 +20,3 @@ De acuerdo con el informe del Laboratorio 2, AWS reserva cinco direcciones por s
 **Lab 3:** propuesta de NAT Gateway y ruta por defecto en la tabla privada compartida para simplificar el ejercicio. El informe advierte que convendría separar las tablas de las capas de aplicación y datos y evaluar NAT zonal por disponibilidad.
 
 **Lab 4:** pool de clientes `10.8.0.0/22` para AWS Client VPN, conceptualmente separado de las seis subredes. Ejemplo conceptual de LAN corporativa `192.168.50.0/24` conectada por Direct Connect y VPN Site-to-Site de respaldo.
-
-**Alcance:** diseño documentado (Ruta B), sin aprovisionamiento real de recursos AWS.
