@@ -10,6 +10,4 @@ Estos son los **tres informes finales originales** del Módulo 1 del Diplomado e
 
 **Total:** 97 páginas de documentación académica, desarrolladas como etapas de una misma propuesta de arquitectura AWS para comercio electrónico.
 
-> **Nota de alcance:** se realizó exclusivamente la **Ruta B (investigación equivalente)**. No se aprovisionaron recursos AWS ni se ejecutaron pruebas reales. Las configuraciones y validaciones se explican como procedimientos documentados y resultados esperados. Las imágenes procedentes de documentación oficial se incorporaron como referencias identificadas.
-
 [← Volver a la presentación del proyecto](../README.md) · [Ver diagramas](../diagrams/README.md)
